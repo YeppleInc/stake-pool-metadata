@@ -1,6 +1,8 @@
 {
     "info": {
-        "twitter_handle": "YeppleInc",
-        "discord_handle": "https://discord.gg/jPueM2nYxa"
+        "social": {
+            "twitter_handle": "YeppleInc",
+            "discord_handle": "https://discord.gg/jPueM2nYxa"
+        }
     }
 }
