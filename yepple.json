@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+        "hashAlgorithm": "CIP100:hashAlgorithm",
+        "body": {
+            "@id": "CIP119:body",
+            "@context": {
+                "references": {
+                    "@id": "CIP119:references",
+                    "@container": "@set",
+                    "@context": {
+                        "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                        "Identity": "CIP119:IdentityReference",
+                        "Link": "CIP119:LinkReference",
+                        "Other": "CIP100:OtherReference",
+                        "label": "CIP100:reference-label",
+                        "uri": "CIP100:reference-uri",
+                        "referenceHash": {
+                            "@id": "CIP119:referenceHash",
+                            "@context": {
+                                "hashDigest": "CIP119:hashDigest",
+                                "hashAlgorithm": "CIP100:hashAlgorithm"
+                            }
+                        }
+                    }
+                },
+                "paymentAddress": "CIP119:paymentAddress",
+                "givenName": "CIP119:givenName",
+                "image": "CIP119:image",
+                "objectives": "CIP119:objectives",
+                "motivations": "CIP119:motivations",
+                "qualifications": "CIP119:qualifications",
+                "doNotList": "CIP119:doNotList"
+            }
+        },
+        "authors": {
+            "@id": "CIP100:authors",
+            "@container": "@set",
+            "@context": {
+                "name": "http://xmlns.com/foaf/0.1/name",
+                "witness": {
+                    "@id": "CIP100:witness",
+                    "@context": {
+                        "witnessAlgorithm": "CIP100:witnessAlgorithm",
+                        "publicKey": "CIP100:publicKey",
+                        "signature": "CIP100:signature"
+                    }
+                }
+            }
+        }
+    },
+    "authors": [],
+    "hashAlgorithm": "blake2b-256",
+    "body": {
+        "doNotList": false,
+        "givenName": "Yepple",
+        "motivations": "Yepple is motivated by the belief that decentralized governance is key to Cardano's long-term success. As a DRep, we are committed to bringing our extensive experience with blockchain technology, particularly in Cardano, to serve the community’s needs and vision. Our work developing one-of-a-kind decentralized solutions for our clients that span industries and objectives, coupled with our focus on usability and high-quality outputs, demonstrates our understanding of real-world use cases that can drive mass adoption. By becoming a DRep, we aim to contribute to a governance structure that ensures fairness, minimizes risks, and provides the foundation for sustainable innovation. The Cardano community deserves representatives who prioritize user experience and understand the importance of accessibility, scalability, and transparency in blockchain technology. We are passionate about guiding Cardano to its full potential and helping shape its governance through responsible leadership.",
+        "objectives": "Yepple’s mission as a Cardano Delegation Representative (DRep) is to foster a thriving, inclusive ecosystem that drives innovation and user-focused development on the Cardano blockchain. As long-term blockchain supporters, we bring expertise and knowledge in both the technical and non-technical aspects that make a particular blockchain thrive. Spending the last several years dedicated to Cardano, we specialize in Cardano Native Tokens (NFT/FT minting & customization), staking, governance, and custom dApps. W aim to support projects that offer tangible utility and engagement to developers and end-users alike. Our goal is to bridge Web 2 and Web 3 by enabling user-friendly applications where community participation delivers real-world value and rewards. Through active governance, Yepple is committed to ensuring Cardano’s decentralized future is built on transparency, security, and a deep understanding of its diverse community’s needs.",
+        "paymentAddress": "addr1q8adzzkapvsrzjupwjmql0yrdxs9004days5rzmceeywrwtlpf0p3crghhvqgyuxc6nwea2jp6kk0d7e7ksy4g2htjmqhuzcp9",
+        "qualifications": "Our team has a proven track record in developing scalable Cardano blockchain solutions, combining on-chain and off-chain technologies to support numerous NFT and fungible token projects, as well as decentralized applications. As pioneers in Cardano-based NFTs, we offer custom NFT minting, staking, and marketplace integrations, unlocking the full potential of Cardano’s native assets. We have actively contributed to Project Catalyst by submitting and participating in proposals to drive innovation within the ecosystem. With partnerships across sectors like tokenomics, smart contracts, cross-chain development, and UI/UX, we bring a broad understanding of Cardano’s diverse needs. This enables us to assess governance proposals through a community-wide lens to maximize impact. Our core team members also have years of experience managing Cardano stake pools, with deep insights into its technical and operational aspects.",
+        "references": [
+            {
+                "@type": "Link",
+                "label": "Website",
+                "uri": "https://blockchain.yepple.io/ "
+            },
+            {
+                "@type": "Link",
+                "label": "X Profile",
+                "uri": "https://x.com/yeppleinc"
+            },
+            {
+                "@type": "Identity",
+                "label": "Yepple Governance Overview",
+                "uri": "https://blockchain.yepple.io/governance"
+            }
+        ]
+    }
+}

@@ -1,7 +1,0 @@
-{
-    "name": "Yepple Pool",
-    "description": "Bringing Cardano projects together and moving them forward. Invent the future with Yepple.",
-    "ticker": "YEPPL",
-    "homepage": "https://yepple.io",
-    "extended":"https://raw.githubusercontent.com/YeppleInc/stake-pool-metadata/master/extended.json"
-}
